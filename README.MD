@@ -1,5 +1,7 @@
 # Click and Collect NZ
 
+![PyPI](https://img.shields.io/pypi/v/clickandcollectnz)
+
 ## Usage
 
 ```
