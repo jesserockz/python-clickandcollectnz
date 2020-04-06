@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name='clickandcollectnz',
-      version='0.1.0',
+      version='0.1.1',
       description='A package to get information about Click and Collect slots in NZ',
       long_description=long_description,
       long_description_content_type="text/markdown",

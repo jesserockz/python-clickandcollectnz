@@ -14,7 +14,7 @@ def print_usage():
 
 if __name__ == "__main__":
 
-  parser = argparse.ArgumentParser(description='NZ Click and Collect time slots.')
+  parser = argparse.ArgumentParser(prog='python -m clickandcollectnz', description='NZ Click and Collect time slots.')
   parser.add_argument('chain', nargs="?", choices=classes)
   parser.add_argument('store_id', nargs="?")
   parser.add_argument('--json', dest='json', action='store_const',
